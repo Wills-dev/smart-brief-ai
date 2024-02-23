@@ -10,7 +10,7 @@ const Hero = () => {
             Smart-Brief
           </h1>
         </div>
-        <button
+        {/* <button
           type="button"
           onClick={() =>
             window.open("https://github.com/Wills-dev/smart-brief-ai", "_blank")
@@ -18,7 +18,7 @@ const Hero = () => {
           className="black_btn"
         >
           GitHub
-        </button>
+        </button> */}
       </nav>
       <h1 className="head_text">
         Effortlessly Summarize Your Articles Using{" "}
@@ -26,9 +26,8 @@ const Hero = () => {
         <span className="orange_gradient">SMART-BRIEF</span>
       </h1>
       <h2 className="desc">
-        Streamline Your Reading Experience with Smart Brief: An Open-Source
-        Article Summarizer Crafting Clear and Concise Summaries from Lengthy
-        Articles.
+        Streamline Your Reading Experience with Smart Brief: An Article
+        Summarizer Crafting Clear and Concise Summaries from Lengthy Articles.
       </h2>
     </header>
   );
